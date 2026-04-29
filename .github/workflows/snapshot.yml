@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: '3.11'
 
-      - run: pip install gspread google-auth requests pypdfium2
+      - run: pip install gspread google-auth requests pypdfium2 Pillow
 
       - name: Generate snapshots
         env:
